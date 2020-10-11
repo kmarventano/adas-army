@@ -127,13 +127,33 @@ p {
 	display: block;
 }
 
+.activity-container {
+	display: flex;
+	margin: auto;
+}
+
+.activity-description {
+	color: #000000;
+	background-color: #ffffff;
+	width: 250px;
+	display: block;
+}
+
+.activity-img {
+	display: block;
+	height: 200px;
+	width: 250px;
+}
 @media screen and (max-width: 500px) {
 	.video-container {
 		flex-direction: column;
 	}
+	.activity-container {
+		flex-direction: column;
+	}
 }
 
-	.vertical-align {
-		display: flex;
-     	align-items: center;
-    }
+.vertical-align {
+	display: flex;
+    align-items: center;
+ }
