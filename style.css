@@ -1,1 +1,110 @@
-<!-- TODO (Kriste) Add CSS and make it look pretty -->
+@media (min-width: 900px){
+	.vertical-align {
+		display: flex;
+     	align-items: center;
+    }
+}
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #d3d3d3;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+h2 { 
+	text-align: left;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 16px;
+    line-height: 1.5em;
+    font-size: 16px;
+  	text-align: left;
+  	color: #fafafa;
+}
+  
+.margin {
+	margin-bottom: 45px;
+}
+
+.bg-1 { 
+	background-color: #0f4c5c; 
+    color: #ffffff;
+}
+
+.bg-2 { 
+	background-color: #fb8b24; 
+    color: #ffffff;
+}
+
+.bg-3 { 
+    background-color: #9a031e; 
+    color: #ffffff;
+}
+
+.bg-4 { 
+    background-color: #5f0f40; 
+    color: #ffffff;
+}
+  
+.container-fluid {
+	padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+	padding-top: 15px;
+  	padding-bottom: 15px;
+    border: 0;
+  	border-radius: 0;
+   	margin-bottom: 0;
+  	font-size: 12px;
+  	letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+	color: #a9b3bc !important;
+}
+
+.navbar-nav  li a:link {
+	color: #ffffff;
+}
+
+.navbar-nav  li a:visited {
+	color: #ffffff;
+}
+
+.img-rounded {
+	border-radius: 15px;
+}
+
+.img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 300px;
+	width: 300px;
+	object-fit: cover;
+  	border-radius: 50%;
+}
