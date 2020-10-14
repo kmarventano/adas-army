@@ -144,6 +144,7 @@ p {
 	height: 300px;
 	width: 250px;
 }
+
 @media screen and (max-width: 500px) {
 	.video-container {
 		flex-direction: column;
@@ -160,4 +161,8 @@ p {
 
  .paragraph {
  	font-size: 24px;
+ }
+
+ .navbar {
+ 	font-size: 16px;
  }
